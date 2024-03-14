@@ -227,13 +227,17 @@ NSString *carrierName;
 }
 %end
 
-// NoAppSwitcherIcons -- Doesn't work
-// TODO: Fix this
+// NoAppSwitcherIcons -- Works (now)
 %hook SBFluidSwitcherIconImageContainerView
-- (void)didMoveToWindow {
-	%orig;
-	if (appswitchericons)
-		self.hidden = YES;
+- (BOOL)isHidden {
+    if (appswitchericons)
+        return YES;
+    return %orig;
+}
+- (void)setHidden:(BOOL)arg1 {
+    if (appswitchericons)
+        arg1 = YES;
+    %orig(arg1);
 }
 %end
 
