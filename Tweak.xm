@@ -392,8 +392,7 @@ NSString *carrierName;
 %property (nonatomic, assign) BOOL hiddenByNoClutter;
 
 - (void)adjustForLegibilitySettingsChange:(id)arg0 {
-    %log;
-
+    %orig;
     if (dndLSIndicator && [self.titleString isEqualToString:@"Do Not Disturb"]) {
         self.hidden = YES;
         self.hiddenByNoClutter = YES;
@@ -401,8 +400,6 @@ NSString *carrierName;
         self.hidden = NO;
         self.hiddenByNoClutter = NO;
     }
-
-    %orig;
 }
 %end
 
@@ -417,14 +414,15 @@ NSString *carrierName;
 
 // NoBetaDots -- Works
 %hook SBIconBetaLabelAccessoryView
-- (void)layoutSubviews {
-	%orig;
-	if (betadots)
-		self.hidden = YES;
+- (struct CGSize )intrinsicContentSize {
+    if (betadots)
+        self.hidden = YES;
+
+    return %orig;
 }
 %end
 
-// NoUpdateDots
+// NoUpdateDots -- Works
 %hook SBApplication
 - (bool)_isRecentlyUpdated {
 	if (updatedots) {
