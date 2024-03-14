@@ -1,5 +1,11 @@
-ARCHS = arm64 arm64e
-TARGET = iphone:clang:13.0:7.0
+TARGET := iphone:clang:latest:16.0
+
+SDK_PATH = $(THEOS)/sdks/iPhoneOS16.5.sdk/
+SYSROOT = $(SDK_PATH)
+
+THEOS_DEVICE_IP = localhost
+THEOS_DEVICE_PORT = 2222
+THEOS_PACKAGE_SCHEME = rootless
 
 include $(THEOS)/makefiles/common.mk
 
@@ -7,7 +13,7 @@ TWEAK_NAME = NoClutter
 NoClutter_FILES = Tweak.xm
 NoClutter_CFLAGS = -fobjc-arc
 NoClutter_EXTRA_FRAMEWORKS += Cephei
-NoClutter_PRIVATE_FRAMEWORKS = CoreTelephony
+NoClutter_PRIVATE_FRAMEWORKS = CoreTelephony AppleMediaServices
 
 SUBPROJECTS += noclutterprefs
 

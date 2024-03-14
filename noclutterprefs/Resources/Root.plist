@@ -26,19 +26,27 @@
 			<key>default</key>
 			<true/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>enabled</string>
 			<key>label</key>
 			<string>Enabled</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
 			<string>Support</string>
+		</dict>
+        <dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Follow @DCalabro3 on Twitter</string>
+			<key>action</key>
+			<string>twitterDC</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -98,13 +106,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>homebar</string>
 			<key>label</key>
 			<string>Hide Homebar</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -112,13 +120,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>breadcrumb</string>
 			<key>label</key>
 			<string>Hide Breadcrumbs</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -126,13 +134,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>tablabel</string>
 			<key>label</key>
 			<string>Hide Tab Labels</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -140,13 +148,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>scrollbar</string>
 			<key>label</key>
 			<string>Hide Scroll Bar</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -154,13 +162,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>separator</string>
 			<key>label</key>
 			<string>Hide Separator Lines</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -174,13 +182,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>statusbar</string>
 			<key>label</key>
 			<string>Hide Full Status Bar</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -188,13 +196,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>ccstatusbar</string>
 			<key>label</key>
 			<string>Hide Status Bar in CC</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -202,13 +210,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>sbtime</string>
 			<key>label</key>
 			<string>Hide Time</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -216,13 +224,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>sbsignal</string>
 			<key>label</key>
 			<string>Hide Cellular Bars</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -230,13 +238,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>sbwifi</string>
 			<key>label</key>
 			<string>Hide Wifi</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -244,13 +252,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>sbcellular</string>
 			<key>label</key>
 			<string>Hide Cellular (Eg. 4G)</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -258,13 +266,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>sbbattery</string>
 			<key>label</key>
 			<string>Hide Battery</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -272,13 +280,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>sbpill</string>
 			<key>label</key>
 			<string>Hide Pill</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -286,13 +294,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>sbicons</string>
 			<key>label</key>
 			<string>Hide Icons (e.g VPN/Location)</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -306,13 +314,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>hsbackdrop</string>
 			<key>label</key>
 			<string>Hide Home Screen Backdrop</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -320,13 +328,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>applabels</string>
 			<key>label</key>
 			<string>Hide App Labels</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -334,13 +342,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>pagedots</string>
 			<key>label</key>
 			<string>Hide Page Dots</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -348,13 +356,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>updatedots</string>
 			<key>label</key>
 			<string>Hide Update Dots</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -362,13 +370,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>betadots</string>
 			<key>label</key>
 			<string>Hide Beta Dots</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -376,13 +384,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>offloadedicon</string>
 			<key>label</key>
 			<string>Hide Offloaded Icon</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -390,13 +398,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>dock</string>
 			<key>label</key>
 			<string>Hide Dock</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -404,13 +412,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>dock_disable</string>
 			<key>label</key>
 			<string>Disable Dock (Like WhoNeedsDock)</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -418,13 +426,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>dockbackground</string>
 			<key>label</key>
 			<string>Hide Dock Background</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -432,13 +440,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>iconbadge</string>
 			<key>label</key>
 			<string>Hide Icon Badge</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -446,13 +454,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>xdeletebutton</string>
 			<key>label</key>
 			<string>Hide x Button</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -460,13 +468,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>editingdonebutton</string>
 			<key>label</key>
 			<string>Hide Editing Done Button</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -474,13 +482,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>widgetfooter</string>
 			<key>label</key>
 			<string>Hide Widget Footer</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -488,13 +496,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>todayview</string>
 			<key>label</key>
 			<string>Hide Today View</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -508,13 +516,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>padlock</string>
 			<key>label</key>
 			<string>Hide LS Padlock</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -522,13 +530,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>nofaceidglyph</string>
 			<key>label</key>
 			<string>Hide Face ID Glyph</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -536,13 +544,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>dnd</string>
 			<key>label</key>
 			<string>Hide Do Not Disturb Banner</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -550,13 +558,27 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
+			<key>key</key>
+			<string>dndLSIndicator</string>
+			<key>label</key>
+			<string>Hide Do Not Disturb LS Indicator</string>
+			<key>PostNotification</key>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>ccbar</string>
 			<key>label</key>
 			<string>Hide CC Bar</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -564,13 +586,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>swipetext</string>
 			<key>label</key>
 			<string>Hide Swipe Text</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -578,13 +600,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>quickactiontoggles</string>
 			<key>label</key>
 			<string>Hide Quick Action Toggles</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -592,13 +614,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>cameraquickactiontoggles</string>
 			<key>label</key>
 			<string>Hide Camera Quick Action Toggle</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -606,13 +628,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>torchquickactiontoggles</string>
 			<key>label</key>
 			<string>Hide Torch Quick Action Toggle</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -620,13 +642,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>notificationcentertext</string>
 			<key>label</key>
 			<string>Hide "Notification Center" Text</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -634,13 +656,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>nooldernotifications</string>
 			<key>label</key>
 			<string>Hide "No Older Notifications" Text</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -654,13 +676,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>safariclosetabbutton</string>
 			<key>label</key>
 			<string>Hide Close Tab Button</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -668,13 +690,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>safarisearchbg</string>
 			<key>label</key>
 			<string>Hide Search Background Color</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -682,13 +704,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>safarifavicon</string>
 			<key>label</key>
 			<string>Hide Favicon</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -702,13 +724,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>foldertitle</string>
 			<key>label</key>
 			<string>Hide Folder Title</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -716,13 +738,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>folderbackground</string>
 			<key>label</key>
 			<string>Hide Folder Background</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -730,13 +752,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>folderblur</string>
 			<key>label</key>
 			<string>Hide Folder Blur</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -750,13 +772,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>appswitcherheader</string>
 			<key>label</key>
 			<string>Hide Header (Icon and Label)</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -764,13 +786,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>appswitchericons</string>
 			<key>label</key>
 			<string>Hide Icons</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -784,13 +806,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>twitterads</string>
 			<key>label</key>
 			<string>Hide Twitter Ads</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -798,13 +820,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>redditads</string>
 			<key>label</key>
 			<string>Hide Reddit Ads</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -818,13 +840,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>settingsarrow</string>
 			<key>label</key>
 			<string>Hide Settings Arrow</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -838,13 +860,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>sbcellulartext</string>
 			<key>label</key>
 			<string>Hide Cellular Text (Eg. AT&amp;T)</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -852,13 +874,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>shuttersound</string>
 			<key>label</key>
 			<string>Disable Shutter Sound</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -866,13 +888,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>videoshuttersound</string>
 			<key>label</key>
 			<string>Disable Video Shutter Sound</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -880,13 +902,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>endvideoshuttersound</string>
 			<key>label</key>
 			<string>Disable End Video Shutter Sound</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -894,13 +916,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>NoKeyPressSound</string>
 			<key>label</key>
 			<string>Disable Typing Sound</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -908,13 +930,13 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>endlocksound</string>
 			<key>label</key>
 			<string>Disable Lock Sound</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -922,13 +944,21 @@
 			<key>default</key>
 			<false/>
 			<key>defaults</key>
-			<string>com.iamparsa.noclutterprefs</string>
+			<string>com.dcproducts.noclutterprefs</string>
 			<key>key</key>
 			<string>chargesound</string>
 			<key>label</key>
 			<string>Disable Charge Sound</string>
 			<key>PostNotification</key>
-			<string>com.iamparsa.noclutterprefs/settingschanged</string>
+			<string>com.dcproducts.noclutterprefs/settingschanged</string>
+		</dict>
+        <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>Updated for rootless by Derek Calabro (@DCalabro3)</string>
 		</dict>
 		<dict>
 			<key>cell</key>

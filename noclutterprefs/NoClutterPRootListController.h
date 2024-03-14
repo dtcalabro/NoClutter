@@ -2,7 +2,8 @@
 #import <Foundation/Foundation.h>
 #import <Preferences/PSSpecifier.h>
 #import <CepheiPrefs/HBRootListController.h>
-#import <CepheiPrefs/HBAppearanceSettings.h>
+//#import <CepheiPrefs/HBAppearanceSettings.h>
+#import <CepheiPrefs/CepheiPrefs-Swift.h>
 #import <Cephei/HBPreferences.h>
 
 #define screenWidth [[UIScreen mainScreen] bounds].size.width

@@ -1,5 +1,24 @@
 #import <CoreTelephony/CTTelephonyNetworkInfo.h>
 #import <CoreTelephony/CTCarrier.h>
+#import <UIKit/UIKit.h>
+
+@interface NCNotificationListCountIndicatorView : UIView
+@property (copy, nonatomic) NSString *titleString;
+@property (nonatomic, assign) BOOL hiddenByNoClutter;
+@end
+
+@interface MTLumaDodgePillView : UIView
+@property (nonatomic, assign, readwrite, getter=isHidden) BOOL hidden;
+@end
+
+@interface SBHomeGrabberView : UIView
+@property (nonatomic, assign, readwrite, getter=isHidden) BOOL hidden;
+@end
+
+@interface AMSTelephonyDataCache : NSObject
+@property(readonly, nonatomic) NSArray *carrierNames;
++ (id)sharedCache;
+@end
 
 @interface BSUICAPackageView
 @property (nonatomic, assign, readwrite, getter=isHidden) BOOL hidden;
@@ -224,6 +243,7 @@ static BOOL sbpill = NO;
 static BOOL nooldernotifications = NO;
 static BOOL nofaceidglyph = NO;
 static BOOL dnd = NO;
+static BOOL dndLSIndicator = NO;
 static BOOL tablabel = NO;
 static BOOL betadots = NO;
 static BOOL updatedots = NO;
